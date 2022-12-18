@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Back{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Inkrid\ Intro.gif");
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    background: #111;
+    height: 50vh;
+    width: 100vw;
+    padding-top: 60px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 2.1px solid white;
+    padding: 9px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: orange;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ .footer-bottom p a{
+   color:orange;
+   font-size: 16px;
+   text-decoration: none;
+ }
+ .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+ }
